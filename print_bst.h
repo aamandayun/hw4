@@ -138,7 +138,6 @@ void BinarySearchTree<Key, Value>::printRoot (Node<Key, Value>* root) const
 
         if(getNodeDepth(*this, root, treeIter.current_) != -1)
         {
-          std::cout<<"SFKJSDFJLDJFLKSDJ"<<std::endl;
             // note; the iterator will traverse in sorted order so values should get the same placeholders between
             // different calls as long as the tree is the same
             valuePlaceholders.insert(std::make_pair(treeIter->first, nextPlaceHolderVal++));
